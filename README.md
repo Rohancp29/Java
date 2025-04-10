@@ -1,7 +1,30 @@
-# Java
-+++++++++++
-Remaning part of day 2 is 
-not breifly reading maps in java 10 videos remaining 
-spring boot documentation 
-I will do both of these tonight
-+++++++++++++
+# 📅 Learning Progress Log
+
+## ✅ Day 2
+
+### Completed:
+- Briefly reviewed Java Maps (remaining videos from the "Maps in Java" series).
+- Went through Spring Boot documentation (overview level).
+
+### Remaining:
+- Thoroughly watch and understand the remaining videos on **Maps in Java**.
+- Deeply read and explore **Spring Boot documentation**.
+
+🕗 **Plan:** I will complete both tasks tonight.
+
+---
+
+## ✅ Day 3
+
+### Completed:
+- Read Spring Boot guides on building RESTful APIs.
+- Created the **Student Management System** project which is in project file.
+- Tested REST endpoints using **Postman**.
+- Completed **project documentation**.
+
+
+### Remaining:
+- Gain in-depth knowledge of **SLF4J logging**.
+- 2 Coding questions
+- Currently doing remaining part.
+---

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head><title>Update Student</title></head>
+<body>
+<h2>Update Student</h2>
+<form th:action="@{/update}" th:object="${student}" method="post">
+    <input type="hidden" th:field="*{id}" />
+    Name: <input type="text" th:field="*{name}" /><br/>
+    Branch: <input type="text" th:field="*{branch}" /><br/>
+    Percentage: <input type="number" step="0.01" th:field="*{percentage}" /><br/>
+    <button type="submit">Update</button>
+</form>
+</body>
+</html>
