@@ -33,7 +33,6 @@ mvn spring-boot:run
 | DELETE | `/student/delete/{id}`     | Delete student by ID      |
 
 ---
-
 ##  Sample JSON for POST/PUT
 
 ```json
@@ -42,33 +41,35 @@ mvn spring-boot:run
   "percentage": 90,
   "branch": "IT"
 }
-
+```
 ---
-##  Usage Examples (cURL)
+
+## Usage Examples
 
 ###  Get all students
 ```bash
 curl http://localhost:8080/students
-
+```
 ###  Get student by ID
 ```bash
 curl http://localhost:8080/students/1
-
+```
 ###  Add a student
 ```bash
 curl -X POST http://localhost:8080/student/add \
 -H "Content-Type: application/json" \
 -d '{"name":"RP", "percentage":90, "branch":"IT"}'
-
+```
 ###  Update student
 ```bash
 curl -X PUT http://localhost:8080/student/update/1 \
 -H "Content-Type: application/json" \
 -d '{"name":"RP Updated", "percentage":92, "branch":"CS"}'
-
+```
 ###  Delete student
+```bash
 curl -X DELETE http://localhost:8080/student/delete/1
-
+```
 ---
 
 ##  Logging with SLF4J
