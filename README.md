@@ -28,3 +28,10 @@
 - 2 Coding questions
 - Currently doing remaining part.
 ---
+
+## ✅ Day 4
+
+### Completed:
+- Completed all the tasks.
+- SQL and MySQL Commands 
+- H2 database via Spring Data JPA
