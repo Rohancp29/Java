@@ -1,5 +1,5 @@
 # 📅 Learning Progress Log
-
+---
 ## ✅ Day 2
 
 ### Completed:
@@ -22,6 +22,7 @@
 - Tested REST endpoints using **Postman**.
 - Completed **project documentation**.
 
+---
 
 ### Remaining:
 - Gain in-depth knowledge of **SLF4J logging**.
@@ -35,3 +36,13 @@
 - Completed all the tasks.
 - SQL and MySQL Commands 
 - H2 database via Spring Data JPA
+
+---
+
+## ✅ Day 5
+
+### Completed:
+- Completed all the tasks.
+- Created Dockerfile
+- Array, String Questions 
+---
