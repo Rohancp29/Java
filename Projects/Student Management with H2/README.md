@@ -3,6 +3,7 @@
 A Spring Boot application to manage student records using RESTful APIs and H2 in memory database .
 Supports CRUD operations — Create, Read, Update, Delete.
 
+Add docker container 
 ---
 
 ## Technologies Used
@@ -54,21 +55,14 @@ spring.datasource.username=
 spring.datasource.password=
 
 ```
-###  Add dependency pom file 
+###  docker file
 ```bash
-<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+<finalName>spring-boot-docker</finalName>
 ```
 
 ---
-##  H2 Overview
-![Dashboard](h2console.JPG)
 
 
----
 
 
 
