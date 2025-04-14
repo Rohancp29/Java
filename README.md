@@ -46,3 +46,10 @@
 - Created Dockerfile
 - Array, String Questions 
 ---
+
+## ✅ Day 6
+
+### Completed:
+- Completed all the tasks.
+
+---
